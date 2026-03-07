@@ -142,3 +142,11 @@ try:
     x = 10 / 0
 except ZeroDivisionError:
     print("cannot divide by zero")
+
+
+# | Function  | Purpose                     |
+# | --------- | --------------------------- |
+# | `dump()`  | Python object → JSON file   |
+# | `dumps()` | Python object → JSON string |
+# | `load()`  | JSON file → Python object   |
+# | `loads()` | JSON string → Python object |
